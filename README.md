@@ -1,5 +1,4 @@
 # lounge-clj
-======
 Clojure CES Engine
 
 lounge-clj is a project to create a Component Entity System in as few lines of code (LOC) as possible.
@@ -13,25 +12,22 @@ lounge-clj is a project to create a Component Entity System in as few lines of c
 ```
 
 ## Component, Entity, System
-======
 
-###Components
+### Components
 Components are small independant reusable bit's of state which can be attached to Entities.
 These bit's of state are implemented as hash-maps.
 
-###Entity
+### Entity
 Entities consist of a universally unique name associated to a collection of Components.
 Entities are implemented as a vector containing:
    a) a UUID
    b) Vector of Components
 
-###System
+### System
 Systems are small independant functions which act upon the global environment of Entities,
 and optionally mutate state.
 
 ## Example
-======
-
 There are three (3) main macro's in lounge-clj each returns a new function.
 
 ```clojure
