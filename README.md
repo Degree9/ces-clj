@@ -1,7 +1,7 @@
-# lounge-clj
+# ces-clj
 Clojure CES Engine
 
-lounge-clj is a project to create a Component Entity System in as few lines of code (LOC) as possible.
+ces-clj is a project to create a Component Entity System in as few lines of code (LOC) as possible.
 
 ```clojure
 ;; add dependencies
