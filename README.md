@@ -5,7 +5,7 @@ ces-clj is a project to create a Component Entity System in as few lines of code
 
 ```clojure
 ;; add dependencies
-(set-env! :dependencies '[[adzerk/boot-reload "0.1.0"]])
+(set-env! :dependencies '[[degree9/ces-clj "0.1.0"]])
 
 ;; require in namespace
 (:require [lounge-clj :as lounge])
